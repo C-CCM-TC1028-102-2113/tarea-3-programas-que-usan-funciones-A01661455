@@ -2,22 +2,20 @@
 #A01661455
 import math 
 
-year=float(input)
+ #escribe tu código abajo de esta línea
 
 def bisiesto(year):
-     if (year%4==0):
-      year=True
-     else:
-      year=False
-     return year
-
-ex=year
-print (ex)
+    if (year%4==0):
+      tipo=True
+    else:
+      tipo=False
+    return tipo
 
 def main():
-    #escribe tu código abajo de esta línea
-   
-    pass
+    year=int(input())
 
+    tipoa=bisiesto(year)
+    print(tipoa)
+  
 if __name__=='__main__':
     main()
